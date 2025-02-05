@@ -39,7 +39,7 @@ By default, a state can have no ancestor states, resulting in a flat state
 machine. But to enable the creation of a hierarchical state machine, the
 :kconfig:option:`CONFIG_SMF_ANCESTOR_SUPPORT` option must be enabled.
 
-By default, the hierarchical state machines do not support initial transitions
+By default, hierarchical state machines do not support initial transitions
 to child states on entering a superstate. To enable them the
 :kconfig:option:`CONFIG_SMF_INITIAL_TRANSITION` option must be enabled.
 
